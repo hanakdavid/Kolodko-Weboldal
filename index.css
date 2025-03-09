@@ -1,0 +1,1389 @@
+
+body{
+    background: linear-gradient(90deg, rgb(102, 102, 110) 0%, rgb(159, 159, 167) 35%, rgb(176, 182, 184) 50%,  rgb(84, 91, 94) 100%);
+}
+/* MAIN */
+nav{
+    margin: 0 auto;
+    text-align: center;
+    gap: 10px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 0px 2.5px 2.5px black;
+    padding: 10px;
+    margin-left: 0px;
+}
+.cim{
+    color: grey;
+    font-family: "Audiowide", sans-serif;
+    padding: 2% 2%;
+}
+.link1{
+    color: white;
+    margin-left: 20px;
+
+}
+
+a{
+text-decoration: none;
+font-weight: bold;
+}
+
+.link{
+    color: white;   
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.navbarblack{
+  background-color: rgb(88, 88, 88) !important;
+}
+.link:hover{
+    background: linear-gradient(90deg, rgb(102, 102, 110) 0%, rgb(159, 159, 167) 35%, rgb(176, 182, 184) 100%);
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 0px 0px 1.5px 1.5px greenyellow;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.itt{
+    background: linear-gradient(90deg, rgb(102, 102, 110) 0%, rgb(159, 159, 167) 35%, rgb(176, 182, 184) 100%);
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 0px 0px 1.5px 1.5px greenyellow;
+}
+.drop{
+    margin: -0px -30px;
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    
+}
+.drop:hover{
+    color: #282828;
+}
+.drop{
+    display: none;
+}
+.box{
+    display: none;
+    position: absolute;
+    width: 200px;
+    background-color: #282828;
+    border: solid 6px white;
+    border-radius: 50px 10px 50px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translate(-35%, -1%);
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    
+    
+}
+.box:hover{
+    box-shadow: 0px 0px 3.5px 3.5px gainsboro;
+}
+.boxszoveg{
+    font-family: 'Marope';
+    margin: 3px 20px;
+ color: azure;
+ transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+ margin-top: 8px;
+}
+.boxszoveg:hover{
+    background: linear-gradient(90deg, rgb(102, 102, 110) 0%, rgb(159, 159, 167) 35%, rgb(176, 182, 184) 100%);
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 0px 0px 1.5px 1.5px greenyellow;
+}
+.drop:hover .box{
+    display: block;
+}
+.burgermenu{
+    background-image: url('./pics/list.svg');
+  }
+  .burgermenu:hover{
+    color: black;
+  }
+/* .carousel-item{
+        transition: box-shadow 5.0s ease-in-out, transform 5.3s ease-in-out;
+} */
+.brand1{
+    margin-left: 20px;
+    color: black;
+}
+.carouesl {
+    max-height: 500px !important;
+    max-width: 1000px !important;
+    overflow: hidden;
+ }
+ 
+ .carousel-inner > .item > img {
+     margin: 0 auto;
+ }
+ /* .w-1001{
+    width: 100% !important;
+    height: 412px !important;
+ } */
+.brand1:hover{
+    background-color: rgb(88, 88, 88) !important;
+    border-radius: none;
+    box-shadow: none;
+    cursor: default;
+}
+.carousel-inner{
+margin: 0 auto;
+width: 40%;
+height: 20%;
+border: solid 6px white;
+border-radius: 50px 10px 50px 10px;
+
+}
+.carousel-inner{
+    box-shadow: 0px 0px 12.5px 12.5px gainsboro;
+}
+.carousel-control-prev{
+    margin-left: 380px;
+}
+.carousel-control-next{
+    margin-right: 380px;
+}
+.carousel-indicators{
+    margin-bottom: -35px;
+}
+.kep1{
+    width: 200px;
+    height: 50% !important;
+}
+
+.kc{
+     padding: 20px;
+    /* margin-top: 150px !important; */
+}
+h1, h3, h4, h5, h6{
+    padding: 20px;
+    font-weight: bold;
+}
+p{
+     padding: 20px; 
+     color: rgb(37, 35, 35);
+}
+.kezdolapcim{
+    margin: 2% 2%;
+}
+.kezdolapszoveg{
+    margin: 2% 2%;
+    margin-top: -3%;
+}
+.b1{
+    position: absolute;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    padding: 5px;
+    margin-top: -25px;
+    border-radius: 5px 5px 10px 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    border: 2px dotted black;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+}
+.b1:hover{
+    background-color: rgb(201, 195, 195);
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px gainsboro, 0 0 20px #9b9e9d;
+}
+.b1f{
+    margin-top: -44px;
+}
+/* MAIN VÉGE */
+
+
+/* SZOBROK */
+.keszkep{
+    width: 70%;
+    border-radius: 20px;
+    border: solid 6px white;
+    border-radius: 0px 50px 50px 50px;
+    margin: 20px;
+    box-shadow: 0px 0px 0.5px 15.5px rgb(216, 184, 176);
+    box-shadow: 0px 0px 15.5px 0.5px rgb(90, 18, 0);
+    cursor: pointer;
+    transition: transform 1s;
+
+}
+.keszkep:hover{
+    transform: scale(1.1);
+}
+.container12 {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 0px;
+    align-content: center;
+    width: 100%;
+    grid-auto-flow: column;
+  }
+  .container2 {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 0px;
+    align-content: center;
+    width: 100%;
+    grid-auto-flow: column;
+    margin-top: 50px;
+  }
+  .container3 {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 0px;
+    align-content: center;
+    width: 70%;
+    grid-auto-flow: column;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+
+  }
+  .ucard{
+    margin-right: 0px;
+  }
+.card{
+    background-color: rgba(0 , 0, 0, 0.75);
+    color: azure;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px 40px 40px 40px;
+    margin-left: 100px;
+    flex-direction: column;
+    width: 70% !important;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 5px 5px 5px 5px rgb(133, 130, 130)  ;
+    
+}
+.card p{
+    color: azure;
+}
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 0 50px rgb(235, 229, 229), 0 0 20px #9b9e9d;
+    background-color: rgba(0 , 0, 0, 0.65);
+
+
+}
+
+.kolodko{
+    width: 350px;
+    border-radius: 20px;
+    border: solid 6px white;
+    border-radius: 0px 50px 50px 50px;
+    margin: 20px;
+    box-shadow: 0px 0px 0.5px 15.5px rgb(216, 184, 176);
+    box-shadow: 0px 0px 15.5px 0.5px rgb(90, 18, 0);
+}
+
+.container123 {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 0px;
+    align-content: center;
+    width: 100%;
+    grid-auto-flow: column;
+  }
+/* KOLODKO ÉLETE TÁBLÁZAT */
+.table1{
+    width: 300px;
+    margin: 0 auto;
+}
+/* KOLODKO ÉLETE TÁBLÁZAT */
+
+.card1{
+    background-color: rgba(0 , 0, 0, 0.75);
+    color: azure;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px 40px 40px 40px;
+    margin-left: 100px;
+    flex-direction: column;
+    width: 400px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+.card1 p{
+    color: azure;
+}
+.card1:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 0 50px rgb(235, 229, 229), 0 0 20px #9b9e9d;
+    background-color: rgba(0 , 0, 0, 0.65);
+}
+
+.card2{
+    background-color: rgba(0 , 0, 0, 0.75);
+    color: azure;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px 40px 40px 40px;
+    margin-left: 100px;
+    flex-direction: column;
+    width: 400px;
+    height: 1100px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+.card2 p{
+    color: azure;
+}
+.card2:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 0 50px rgb(235, 229, 229), 0 0 20px #9b9e9d;
+    background-color: rgba(0 , 0, 0, 0.65);
+}
+/* SZOBROK VÉGE */
+
+/* LÁBLÉC */
+
+.lablec{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(29, 27, 27);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 105px;
+}   
+.le1{
+margin: 120px 0px 0px 0px;
+}
+.lablec p{
+    padding: 0px !important;
+}
+.lablecszoveg{
+    text-align: center;
+    color: white;
+}
+.terkep{
+    padding: 0px 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: solid 6px white;
+    border-radius: 50px 10px 50px 10px;
+    box-shadow: 0px 0px 5.5px 5.5px gainsboro;
+}
+
+#terkeplink{
+    margin-top: 20px;
+    /* float: left !important;
+    transform: translate(-470%, 1500%); */
+}
+
+
+/* LÁBLÉC VÉGE */
+/* KEZDŐLAP RESPONSIVE */
+  /* Small devices (landscape phones, 200px and up) */
+@media (min-width: 300px) and (max-width: 575px){
+body{
+    width: 100%;
+}
+
+nav{
+width: 100%;
+}
+nav .link {
+    display: none;
+}
+.carousel{
+    width: 100%;
+    height: 40%;
+}
+.carousel{
+margin-top: 170px !important;
+}
+.carousel-inner{
+    width: 300px !important;
+    height: 174px !important;
+} 
+.carousel-control-next{
+    margin-right: 2%;
+}
+.carousel-control-prev{
+    margin-left: 2%;
+}
+.drop{
+    display: block;
+     margin-left: 80%;
+    margin-top: 0px; 
+}
+.boxszoveg{
+    display: block;
+    font-size: 15px;
+
+}
+.burgermenu{
+    display: block;
+    
+}
+.box{
+    margin-left: -70px;
+    margin-top: 0px; 
+    position: absolute;
+}
+.kezdolapcim{
+    margin-top: 30px;
+}
+.b1{
+    margin-top: -10px;
+    margin-left: 25px;
+}
+.lablec{
+    margin-top: 100px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 1000px) {
+    body{
+        width: 100%;
+    }
+    
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: none;
+    }
+    .carousel{
+        width: 100%;
+        height: 40%;
+    }
+    .carousel{
+    margin-top: 170px !important;
+    }
+    .carousel-inner{
+        width: 400px !important;
+        height: 220px !important; /*400 220*/
+    } 
+    .carousel-control-next{
+        margin-right: 15%;
+    }
+    .carousel-control-prev{
+        margin-left: 15%;
+    }
+    .drop{
+        display: block;
+         margin-left: 80%;
+        margin-top: 0px; 
+    }
+    .boxszoveg{
+        display: block;
+        font-size: 15px;
+    
+    }
+    .burgermenu{
+        display: block;
+        
+    }
+    .box{
+        margin-left: -70px;
+        margin-top: 0px; 
+        position: absolute;
+    }
+    .kezdolapcim{
+        margin-top: 30px;
+    }
+    .b1{
+        margin-top: -10px;
+        margin-left: 25px;
+    }
+    .lablec{
+        margin-top: 100px;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 1000px) and (max-width: 1200px) {
+    body{
+        width: 100%;
+    }
+    
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: block;
+    }
+    .lista{
+        display: none;
+    }
+    .carousel{
+        width: 100%;
+        height: 40%;
+    }
+    .carousel{
+    margin-top: 0px !important;
+    }
+    .carousel-inner{
+        width: 600px !important;
+        height: 343px !important; /*400 220*/
+    } 
+    .carousel-control-next{
+        margin-right: 10%;
+    }
+    .carousel-control-prev{
+        margin-left: 10%;
+    }
+    .drop{
+        display: none;
+         margin-left: 80%;
+        margin-top: 0px; 
+    }
+    .boxszoveg{
+        display: none;
+        font-size: 15px;
+    
+    }
+    .burgermenu{
+        display: block;
+        
+    }
+    .box{
+        margin-left: -70px;
+        margin-top: 0px; 
+        position: absolute;
+    }
+    .kezdolapcim{
+        margin-top: 30px;
+    }
+    .b1{
+        margin-top: -20px;
+        margin-left: 25px;
+    }
+    .lablec{
+        margin-top: 100px;
+    }
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+    body{
+        width: 100%;
+    }
+    
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: block;
+    }
+    .lista{
+        display: none;
+    }
+    .carousel{
+        width: 100%;
+        height: 40%;
+    }
+    .carousel{
+    margin-top: 00px !important;
+    }
+    .carousel-inner{
+        width: 700px !important;
+        height: 398px !important; /*400 220*/
+    } 
+    .carousel-control-next{
+        margin-right: 10%;
+    }
+    .carousel-control-prev{
+        margin-left: 10%;
+    }
+    .drop{
+        display: none;
+         margin-left: 80%;
+        margin-top: 0px; 
+    }
+    .boxszoveg{
+        display: none;
+        font-size: 15px;
+    
+    }
+    .burgermenu{
+        display: block;
+        
+    }
+    .box{
+        margin-left: -70px;
+        margin-top: 0px; 
+        position: absolute;
+    }
+    .kezdolapcim{
+        margin-top: 30px;
+    }
+    .b1{
+        margin-top: -20px;
+        margin-left: 25px;
+    }
+    .lablec{
+        margin-top: 100px;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1441px) and (max-width: 1600px) {
+
+    body{
+        width: 100%;
+    }
+    
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: block;
+    }
+    .lista{
+        display: none;
+    }
+    .carousel{
+        width: 100%;
+        height: 40%;
+    }
+    .carousel{
+    margin-top: 00px !important;
+    }
+    .carousel-inner{
+        width: 700px !important;
+        height: 398px !important; /*400 220*/
+    } 
+    .carousel-control-next{
+        margin-right: 10%;
+    }
+    .carousel-control-prev{
+        margin-left: 10%;
+    }
+    .drop{
+        display: none;
+         margin-left: 80%;
+        margin-top: 0px; 
+    }
+    .boxszoveg{
+        display: none;
+        font-size: 15px;
+    
+    }
+    .burgermenu{
+        display: block;
+        
+    }
+    .box{
+        margin-left: -70px;
+        margin-top: 0px; 
+        position: absolute;
+    }
+    .kezdolapcim{
+        margin-top: 30px;
+    }
+    .b1{
+        margin-top: -20px;
+        margin-left: 25px;
+    }
+    .lablec{
+        margin-top: 100px;
+    }
+}
+/* KEZDŐLAP RESPONSIVE VÉGE <3 KOLODKO EGY NIGGER!!*/
+/* Kolodko buzi szobrai */
+@media (min-width: 300px) and (max-width: 575px){
+    body{
+        width: 100%;
+        font-size: 15px;
+    }
+    
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: none;
+    }
+
+    .drop{
+        display: block;
+         margin-left: 80%;
+        margin-top: 0px; 
+    }
+    .boxszoveg{
+        display: block;
+        font-size: 15px;
+    
+    }
+    .burgermenu{
+        display: block;
+        
+    }
+    .box{
+        margin-left: -70px;
+        margin-top: 0px; 
+        position: absolute;
+    }
+    .card{
+         width: 300px !important;
+         margin-left: auto;
+         margin-right: auto;
+         
+    }
+    .keszkep{
+        width: 270px !important;
+    }
+    .card:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 0 50px rgb(235, 229, 229), 0 0 20px #9b9e9d;
+        background-color: rgba(0 , 0, 0, 0.65);
+    }
+    .container12 {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        align-content: center;
+        width: 100%;
+        grid-auto-flow: row;
+
+      }
+      .container2 {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        align-content: center;
+        width: 100%;
+        grid-auto-flow: row;
+        margin-top: 20px;
+      }
+      .container3 {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        align-content: center;
+        width: 100%;
+        grid-auto-flow: row;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    
+      }
+    .lista{
+        display: block;
+    }
+    .res1{
+        margin-top: 120px;
+        text-align: center;
+    }
+    .keszkep:hover{
+        transform: scale(1.05);
+    }
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 1000px) {
+
+    body{
+        width: 100%;
+        font-size: 15px;
+        overflow-x: hidden;
+    }
+    
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: none;
+    }
+
+    .drop{
+        display: block;
+         margin-left: 80%;
+        margin-top: 0px; 
+    }
+    .boxszoveg{
+        display: block;
+        font-size: 15px;
+    
+    }
+    .burgermenu{
+        display: block;
+        
+    }
+    .box{
+        margin-left: -70px;
+        margin-top: 0px; 
+        position: absolute;
+    }
+    .card{
+         width: 400px !important;
+         margin-left: auto;
+         margin-right: auto;
+         
+    }
+    .keszkep{
+        width: 350px !important;
+    }
+    .card:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 0 50px rgb(235, 229, 229), 0 0 20px #9b9e9d;
+        background-color: rgba(0 , 0, 0, 0.65);
+    }
+    .container12 {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        align-content: center;
+        width: 100%;
+        grid-auto-flow: row;
+ 
+      }
+      .container2 {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        align-content: center;
+        width: 100%;
+        grid-auto-flow: row;
+        margin-top: 30px;
+
+      }
+      .container3 {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        align-content: center;
+        width: 100%;
+        grid-auto-flow: row;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    
+      }
+
+    .lista{
+        display: block;
+    }
+    .res1{
+        margin-top: 120px;
+        text-align: center;
+    }
+    .keszkep:hover{
+        transform: scale(1.05);
+    }
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 1000px) and (max-width: 1200px) {
+
+
+    body{
+        width: 100%;
+        font-size: 15px;
+        overflow-x: hidden;
+    }
+    
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: block;
+    }
+
+    .drop{
+        display: none;
+         margin-left: 80%;
+        margin-top: 0px; 
+    }
+    .boxszoveg{
+        display: none;
+        font-size: 15px;
+    
+    }
+    .burgermenu{
+        display: none;
+        
+    }
+    .lista{
+        display: none;
+    }
+    .box{
+        margin-left: -70px;
+        margin-top: 0px; 
+        position: absolute;
+    }
+    .card{
+         width: 260px !important;
+         
+         
+    }
+    .keszkep{
+        width: 230px !important;
+    }
+    .card:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 0 50px rgb(235, 229, 229), 0 0 20px #9b9e9d;
+        background-color: rgba(0 , 0, 0, 0.65);
+    }
+    .container12 {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        gap: -0px;
+        align-content: center;
+        width: 90%;
+        grid-auto-flow: column;
+        margin-left: 0%;
+        margin-right: 5%;
+      }
+      .container2 {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        align-content: center;
+        width: 90%;
+        grid-auto-flow: column;
+        margin-top: 20px;
+        margin-left: 0%;
+        margin-right: 5%;
+      }
+      .container3 {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        align-content: center;
+        width: 90%;
+        grid-auto-flow: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0%;
+        margin-right: 5%;
+    
+      }
+    .lista{
+        display: block;
+    }
+    .res1{
+        margin-top: 120px;
+        text-align: center;
+    }
+    .keszkep:hover{
+        transform: scale(1.05);
+    }
+
+}
+/* Fényképek vége */
+
+/* Kolodko Fényképek */
+  /* Small devices (landscape phones, 200px and up) */
+  @media (min-width: 300px) and (max-width: 575px){
+    body{
+        width: 100%;
+    }
+    .res1{
+        margin-top: 120px;
+        text-align: center;
+    }
+    .boxszoveg{
+        display: block;
+        font-size: 15px;
+    
+    }
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: none;
+    }
+    .lista{
+        display: block;
+    }
+.container123{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    width: 90%;
+    grid-auto-flow: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card1{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.keszkep{
+    width: 260px !important;
+}
+.card2{
+    width: 310px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nob{
+    border-radius: 10px !important;
+}
+  }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 1000px) {   
+    body{
+    width: 100%;
+}
+.res1{
+    margin-top: 120px;
+    text-align: center;
+}
+.boxszoveg{
+    display: block;
+    font-size: 15px;
+
+}
+nav{
+width: 100%;
+}
+nav .link {
+    display: none;
+}
+.lista{
+    display: block;
+}
+.container123{
+text-align: center;
+display: grid;
+justify-content: center;
+gap: 20px;
+align-content: center;
+width: 90%;
+grid-auto-flow: row;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+.card1{
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+.keszkep{
+width: 360px !important;
+}
+.card2{
+width: 410px;
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+.nob{
+border-radius: 10px !important;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 1000px) and (max-width: 1200px) {
+    body{
+        width: 100%;
+    }
+    .res1{
+        margin-top: 120px;
+        text-align: center;
+    }
+    .boxszoveg{
+        display: block;
+        font-size: 15px;
+    
+    }
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: block;
+    }
+    .lista{
+        display: none;
+    }
+    .container123{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    width: 90%;
+    grid-auto-flow: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .card1{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .keszkep{
+    width: 230px !important;
+    }
+    .card2{
+    width: 310px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .nob{
+    border-radius: 10px !important;
+    }
+    .kep01{
+        /* margin-bottom: 250px; */
+        height: 1000px;
+    }
+    }
+    /* Medium devices (tablets, 768px and up) */
+@media (min-width: 1201px) and (max-width: 1600px) {
+    body{
+        width: 100%;
+    }
+    .res1{
+        margin-top: 120px;
+        text-align: center;
+    }
+    .boxszoveg{
+        display: block;
+        font-size: 15px;
+    
+    }
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: block;
+    }
+    .lista{
+        display: none;
+    }
+    .container123{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    width: 90%;
+    grid-auto-flow: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .card1{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .keszkep{
+    width: 260px !important;
+    }
+    .card2{
+    width: 310px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .nob{
+    border-radius: 10px !important;
+    }
+    .kep01{
+        /* margin-bottom: 250px; */
+        height: 1000px;
+    }
+    }
+    /* Kolodko fényképek */
+
+    /* KOLODKO útvonalterv */
+
+      /* Small devices (landscape phones, 200px and up) */
+  @media (min-width: 300px) and (max-width: 575px){
+
+    body{
+        width: 100%;
+    }
+    .res1{
+        margin-top: 120px;
+        text-align: center;
+    }
+    .boxszoveg{
+        display: block;
+        font-size: 15px;
+    
+    }
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: none;
+    }
+    .lista{
+        display: block;
+    }
+    .terkep{
+        margin-left: 20px;
+        width: 90%;
+        margin-right: auto;
+
+    }
+    .le1{
+        margin-top: 210px;
+    }
+    #terkeplink{
+        margin-left: 7%;
+        margin-right: auto;
+        width: 280px;
+    }
+  }
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 1000px) {   
+    body{
+        width: 100%;
+    }
+    .res1{
+        margin-top: 120px;
+        text-align: center;
+    }
+    .boxszoveg{
+        display: block;
+        font-size: 15px;
+    
+    }
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: none;
+    }
+    .lista{
+        display: block;
+    }
+    .terkep{
+        width: 90%;
+        margin-left: 20px;
+        margin-right: auto;
+
+    }
+    .le1{
+        margin-top: 210px;
+    }
+    #terkeplink{
+        margin-top: 12%;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  }
+  /* BIG devices (tablets, 1000px and up) */
+@media (min-width: 1000px) and (max-width: 1200px) {
+
+    body{
+        width: 100%;
+    }
+    .res1{
+        margin-top: 120px;
+        text-align: center;
+    }
+    .boxszoveg{
+        display: none;
+        font-size: 15px;
+    
+    }
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: block;
+    }
+    .lista{
+        display: none;
+    }
+    .terkep{
+        width: 90%;
+        margin-left:  20px;
+        margin-right: auto;
+
+    }
+    .le1{
+        margin-top: 210px;
+    }
+    #terkeplink{
+        margin-top: 18%;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  }
+
+    /* BIG BIG devices (tablets, 1201x and up) */
+@media (min-width: 1201px) and (max-width: 1600px) {
+
+    body{
+        width: 100%;
+    }
+    .res1{
+        margin-top: 120px;
+        text-align: center;
+    }
+    .boxszoveg{
+        display: none;
+        font-size: 15px;
+    
+    }
+    nav{
+    width: 100%;
+    }
+    nav .link {
+        display: block;
+    }
+    .lista{
+        display: none;
+    }
+    .terkep{
+        margin-left: 20px !important;
+        width: 90%;
+        margin-left:  20px;
+        margin-right: auto;
+
+    }
+    .le1{
+        margin-top: 210px;
+    }
+    #terkeplink{
+        margin-top: 25%;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  }

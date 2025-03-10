@@ -1,5 +1,5 @@
  window.onload = function(){ 
-     alert("Click on OK if you are not a C");
+     alert("Click on OK if you are not an C");
      }
 
 p.onclick = function (){

@@ -171,6 +171,8 @@ p{
 .kezdolapszoveg{
     margin: 2% 2%;
     margin-top: -3%;
+    /* utólag */
+    color: black;
 }
 .b1{
     position: absolute;
